@@ -1,6 +1,6 @@
 ---
-title: 'Journey Through Classical Music'
-description: 'Rediscovering the masters of classical music'
+title: 'Lautstark für die Leisen'
+party: 'linke'
 pubDate: 'Jun 20 2024'
 tags: ['music', 'classical', 'history']
 heroImage: '/blog-placeholder-4.jpg'

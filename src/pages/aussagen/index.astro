@@ -7,9 +7,9 @@ import { getCollection, type CollectionEntry } from "astro:content";
 import FormattedDate from "../../components/FormattedDate.astro";
 import TagLink from "../../components/TagLink.astro";
 
-type Post = CollectionEntry<'blog'>;
+type Post = CollectionEntry<'aussagen'>;
 
-const posts = (await getCollection("blog")).sort(
+const posts = (await getCollection("aussagen")).sort(
   (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
 );
 

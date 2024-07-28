@@ -1,8 +1,8 @@
 ---
-title: 'Exploring Technology Trends'
-description: 'An overview of the latest innovations in technology'
+title: 'Aus Anstand Antifaschistin'
+party: 'linke'
 pubDate: 'Jun 15 2024'
-heroImage: '/blog-placeholder-3.jpg'
+heroImage: '/aus-anstand-antifaschistin.jpg'
 tags: ['technology', 'innovation']
 ---
 

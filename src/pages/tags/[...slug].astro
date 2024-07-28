@@ -8,7 +8,7 @@ import FormattedDate from '../../components/FormattedDate.astro';
 import TagLink from '../../components/TagLink.astro';
 
 export async function getStaticPaths() {
-	const posts = await getCollection('blog');
+	const posts = await getCollection('aussagen');
     const tags = posts.flatMap((post) => post.data.tags);
     return tags.map((tag) => ({
         params: { slug: tag },
@@ -16,7 +16,7 @@ export async function getStaticPaths() {
     }));
 }
 const {tag, posts} = Astro.props;
-type Post = CollectionEntry<'blog'>;
+type Post = CollectionEntry<'aussagen'>;
 ---
 
 <!doctype html>
